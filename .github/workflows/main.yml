@@ -22,3 +22,4 @@ jobs:
           token: ${{ secrets.TOKEN }}
           commit: master
           tag: v1.0.${{ github.run_number }}
+          permissions: write
