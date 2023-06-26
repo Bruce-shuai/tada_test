@@ -228,8 +228,7 @@ class _SelectVideoState extends State<SelectVideo> {
             ),
           ),
         if (xfile != null)
-          VideoPlayerView(
-              url: xfile!.path, dataSourceType: VideoSourceType.file)
+          VideoPlayerView(url: xfile.path, dataSourceType: VideoSourceType.file)
       ],
     );
   }
